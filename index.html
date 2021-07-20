@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokebox</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/ressources/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/ressources/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/ressources/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/ressources/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/ressources/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bienvenue dans la Pokebox !</h1>
+
+    <form class="recherche-poke">
+      <label for="recherche">Chercher un pokemon</label>
+      <input type="text" id="recherche" />
+      <!-- <button type="submit">Rechercher</button> -->
+
+      <!-- loader -->
+      <div class="loader">
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+      </div>
+    </form>
+
+    <div class="container">
+      <ul class="liste-poke"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
