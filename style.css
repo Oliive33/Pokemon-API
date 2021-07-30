@@ -137,3 +137,25 @@ ul {
     transform: translateY(-30px);
   }
 }
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 25px;
+  }
+  .recherche-poke {
+    max-width: 400px;
+
+    min-width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    max-width: 200px;
+
+    margin: 0 auto;
+  }
+  .recherche-poke {
+    max-width: 200px;
+    min-width: 100px;
+  }
+}
